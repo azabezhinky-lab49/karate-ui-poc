@@ -26,4 +26,5 @@ Feature: Authentication
 
     And driver appUrlBase
     When click('{}Add Employee')
+    And print html('{}Save')
     And assert exists('{}Save')
