@@ -1,9 +1,9 @@
-package ui;
+package employee;
 
 import com.intuit.karate.junit5.Karate;
 import org.junit.jupiter.api.BeforeAll;
 
-class UiTest {
+class EmployeeTest {
 
     @BeforeAll
     public static void beforeAll() {

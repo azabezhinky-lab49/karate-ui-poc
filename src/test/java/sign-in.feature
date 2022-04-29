@@ -5,7 +5,7 @@ Feature: Sign in process
     * configure driver = { type: 'chrome', showDriverLog: false }
 
   Scenario:
-    And url appUrlBase
+    Given url appUrl
     And path 'login'
     And form field username = username
     And form field password = password

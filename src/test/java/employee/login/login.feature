@@ -4,7 +4,7 @@ Feature: Login
     Given configure driver = { type: 'chrome', showDriverLog: true }
 
   Scenario: Login and logout
-    Given driver appUrlBase + '/login'
+    Given driver employeeAppUrlBase + '/login'
     And input('input[name=username]', 'user')
     And input('input[name=password]', 'password')
     When click('{}Log in')

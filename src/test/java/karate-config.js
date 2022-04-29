@@ -1,6 +1,7 @@
 function fn() {
     const config = { // base config JSON
-        'appUrlBase': 'http://localhost:8080'
+        'employeeAppUrlBase': 'http://localhost:8080',
+        'herokuAppTestPagesUrl': 'https://testpages.herokuapp.com/styled'
     };
 
     // don't waste time waiting for a connection or if servers don't respond within 5 seconds
